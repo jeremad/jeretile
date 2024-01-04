@@ -29,7 +29,7 @@ asyncio.run(main())
 
 ```
 
-Then, you can fill `example.env` with your values. The `name` field is just used for display, pick whatever works for you.
+Then, you can fill `example.env` with your values. The `name` field is used for display, pick whatever works for you.
 
 Finally, you can run this app on your phone:
 
@@ -47,3 +47,5 @@ flutter install --release
 ## Platforms
 
 This has only be tested on Android, it may or may not work on iOS. It will not work on other platforms.
+
+This app requires bluetooth and location permissions.
